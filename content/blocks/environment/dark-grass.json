@@ -1,0 +1,6 @@
+{
+	"type": "floor"
+	"walkSound": "plantBreak"
+	"edge": "grass"
+	"variants": 2
+}

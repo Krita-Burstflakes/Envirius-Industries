@@ -1,0 +1,12 @@
+{
+	"type": "material"
+	"name": "Железо"
+	"description": "Распростанённый ресурс на Энвириусе. используется для создания построек и простых турелях."
+	"color": "444444"
+	"explosiveness": "0"
+	"flameability": "0"
+	"radioactivity": "0"
+	"hardness": "0"
+	"cost": "1f"
+	"alwaysunlocked": true
+}

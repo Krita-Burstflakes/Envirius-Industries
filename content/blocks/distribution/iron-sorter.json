@@ -1,0 +1,11 @@
+{
+	"type": "Sorter"
+	"name": "Железный сортировщик"
+	"description": "Выводит в перед только выбранный ресурс, в ином случае выводит по бокам."
+	"health": "75"
+	"requirements": [
+		{"item": "iron", "amount": 5 }
+	]
+	"research": "router"
+	"category": "distribution"
+}

@@ -1,0 +1,29 @@
+{
+	"name": "Культиватор цветов"
+	"description": "Собирает пыльцу с цветов. Для работы нужна вода."
+	"type": "drill"
+	"health": "250"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 10 }
+		{"item": "oxylite", "amount": 5 }
+		{"item": "metaglass", "amount": 15 }
+	]
+	"consumes": {
+	"power": 0.5
+	"liquids": {
+		"liquids": [
+			{"liquid": "water", "amount": 0.1 }
+		]
+	}
+}
+	"liquidCapacity": "10"
+	"tier": "5"
+	"blockedItems": ["iron", "oxylite", "fyrite", "silver-dust", "copper", "lead", "sand", "coal", "titanium", "thorium"]
+	"drillTime": "400"
+	"drillEffect": "bubble"
+	"drawRim": false
+	"drawSpinSprite": false
+	"category": "production"
+	"research": "copper-wall"
+}

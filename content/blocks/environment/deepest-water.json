@@ -1,0 +1,11 @@
+{
+	"type": "floor"
+	"edge": "water"
+	"speedMultiplier": 0.4
+	"drownTime": 2
+	"statusDuration": 60
+	"cacheLayer": "water"
+	"isLiquid": true
+	"liquidDrop": "water"
+	"variants": 0
+}

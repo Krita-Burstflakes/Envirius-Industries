@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"name": "iron-ore"
+	"itemDrop": "iron",
+	"playerUnmineable": false
+	"variants": "2"
+}

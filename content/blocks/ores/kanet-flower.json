@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"name": "Kanet-flower"
+	"itemDrop": "kanet-pollen",
+	"playerUnmineable": true
+	"variants": "1"
+}

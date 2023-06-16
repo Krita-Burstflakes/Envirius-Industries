@@ -1,0 +1,52 @@
+{	
+	"name": "Меч"
+	"type": "tank"
+	"health": 2000
+	"armor": 5
+	"speed": 0.5
+	"rotateSpeed": 2.5
+	"hitSize": 16
+	"lightRadius": 90
+	"lightColor": "ff4444"
+	"omniMovement": false
+	"weapons": [	
+		{	
+		"name": "sword-turret"
+		"x": 0
+		"y": 5
+		"mirror": false
+		"rotate": true
+		"reload": 40
+		"shootSound": "blaster"
+		"bullet": {
+			"type": "laserBoltBulletType"
+            "lifetime": "20"
+            "speed": "10"
+            "damage": "50"
+            "frontColor": "e5c58d"
+            "backColor": "e2b669"
+			"width": 3
+			"height": 15
+			}
+		}
+		{	
+		"name": "sword-turret"
+		"x": 0
+		"y": -5
+		"mirror": false
+		"rotate": true
+		"reload": 40
+		"shootSound": "blaster"
+		"bullet": {
+			"type": "laserBoltBulletType"
+            "lifetime": "20"
+            "speed": "10"
+            "damage": "50"
+            "frontColor": "e5c58d"
+            "backColor": "e2b669"
+			"width": 3
+			"height": 15
+			}
+		}
+	]
+}

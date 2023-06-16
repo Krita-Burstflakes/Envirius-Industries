@@ -1,0 +1,40 @@
+{
+    "type": "liquidTurret"
+    "name": "Расцвет"
+    "description": "Выпускает сильный лазер уничтожающий все цели."
+    "health": "1500"
+    "size": "2"
+    "requirements": [
+        {"item": "iron", "amount": 160 }
+        {"item": "silicon", "amount": 30 }
+		{"item": "oxylite", "amount": 10 }
+	]
+    "targetAir": true
+	"maxAmmo": "15"
+    "ammoPerShot": "1"
+    "rotateSpeed": 3
+	"reload": "40"
+    "range": "90"
+	"shootSound": "railgun"
+	"moveWhileCharging": false
+    "category": "turret"
+	"consumes": {
+		"power": 1
+	}
+    "ammoTypes": {
+        "melted-kanet-pollen": {
+            "type": "railBulletType"
+            "lifetime": "10"
+            "speed": "10"
+            "damage": "200"
+            "frontColor": "6ca2e8"
+            "backColor": "2a75d5"
+			"pierceEffect": "railHit"
+			"pointEffect": "railTrail"
+			"lineEffect": "unitSpawn"
+			"endEffect": "railTrail"
+			"length": 90
+			"pointEffectSpace": 10
+        }
+    }
+}

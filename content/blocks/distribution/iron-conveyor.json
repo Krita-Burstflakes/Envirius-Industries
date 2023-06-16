@@ -1,0 +1,13 @@
+{
+	"type": "Conveyor"
+	"name": "Железный конвейер"
+	"description": "Передвигает ресурсы вперёд с маленькой скоростью."
+	"health": "20"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 1 }
+	]
+	"speed": "0.04"
+	"research": "conveyor"
+	"category": "distribution"
+}

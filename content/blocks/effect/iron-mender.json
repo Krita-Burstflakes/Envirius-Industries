@@ -1,0 +1,30 @@
+{
+	"type": "mendProjector"
+	"name": "Железный регенератор"
+	"description": "Использует пыльцу Архафа для того чтобы чинить окружающие постройки."
+	"health": "500"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 15 }
+		{"item": "silicon", "amount": 15 }
+	]
+	"research": "conveyor"
+	"hasPower": true
+	"hasItems": true
+	"craftTime": "100"
+	"consumes": {
+		"power": 0.25
+		"items": {
+			"items": [
+				{"item": "arhaf-pollen", "amount": 1 }
+			]
+		}
+	}
+	"category": "effect"
+	"itemcapacity": "10"
+	"range": "50"
+	"healPercent": "25"
+	"baseColor": "ffb4baff"
+	"phaseColor": "ffb4baff"
+	"timerUse": "1"
+}	

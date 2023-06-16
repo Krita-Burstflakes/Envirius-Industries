@@ -1,0 +1,42 @@
+{
+    "type": "itemTurret"
+    "name": "Акинак"
+    "description": "Создаёт мощный выстрел повреждающий броню врагов."
+    "health": "500"
+    "size": "1"
+    "requirements": [
+        {"item": "iron", "amount": 25 }
+        {"item": "silicon", "amount": 30 }
+		{"item": "silver-dust", "amount": 5 }
+    ]
+    "maxAmmo": "15"
+	"inaccuracy": "0"
+    "ammoPerShot": "1"
+    "reload": "20"
+    "range": "50"
+	"targetGround": true
+	"shootSound": "bolt"
+    "category": "turret"
+    "ammoTypes": {
+        "iron": {
+            "type": "laserBulletType"
+            "lifetime": "2"
+            "speed": "15"
+            "damage": "45"
+            "frontColor": "eebb55"
+            "backColor": "ddaa55"
+			"colors": ["dddddd", "eeeeee", "ffffff"]
+			"laserEffect": "lancerLaserShootSmoke"
+			"length": 80.0
+			"width": 10.0
+			"lengthFalloff": 0.5	
+			"sideLength": 29.0	
+			"sideWidth": 0.7	
+			"sideAngle": 180.0	
+			"lightningSpacing": -1.0	
+			"lightningDelay": 0.1	
+			"float": 0.0	
+			"largeHit": false
+		}
+	}
+}    

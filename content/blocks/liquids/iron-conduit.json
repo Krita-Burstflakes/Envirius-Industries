@@ -1,0 +1,15 @@
+{
+	"name": "Железный трубопровод"
+	"description": "Перемещает жидкости в 3 стороны."
+	"health": "25"
+	"type": "liquidRouter"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 1 }
+		{"item": "metaglass", "amount": 1 }
+	]
+	"hasLiquids": true
+	"liquidCapacity": "10"
+	"category": "liquid"
+	"research": "copper-wall"
+}

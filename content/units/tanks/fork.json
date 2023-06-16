@@ -1,0 +1,52 @@
+{	
+	"name": "Форк"
+	"type": "tank"
+	"health": 7500
+	"armor": 5
+	"speed": 0.7
+	"rotateSpeed": 0.8
+	"hitSize": 32
+	"lightRadius": 90
+	"lightColor": "ff4444"
+	"omniMovement": false
+	"weapons": [	
+		{	
+		"name": "fork-turret"
+		"x": 8
+		"y": 8
+		"mirror": true
+		"rotate": true
+		"reload": 40
+		"shootSound": "bigshot"
+		"bullet": {
+			"type": "laserBoltBulletType"
+            "lifetime": "20"
+            "speed": "10"
+            "damage": "100"
+            "frontColor": "e5c58d"
+            "backColor": "e2b669"
+			"width": 3
+			"height": 15
+			}
+		}
+		{	
+		"name": "fork-turret"
+		"x": 8
+		"y": -8
+		"mirror": true
+		"rotate": true
+		"reload": 40
+		"shootSound": "bigshot"
+		"bullet": {
+			"type": "laserBoltBulletType"
+            "lifetime": "20"
+            "speed": "10"
+            "damage": "100"
+            "frontColor": "e5c58d"
+            "backColor": "e2b669"
+			"width": 3
+			"height": 15
+			}
+		}
+	]
+}

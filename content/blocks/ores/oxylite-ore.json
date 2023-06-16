@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"name": "oxylite-ore"
+	"itemDrop": "oxylite",
+	"playerUnmineable": true
+	"variants": "1"
+}

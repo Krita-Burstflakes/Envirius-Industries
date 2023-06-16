@@ -1,0 +1,21 @@
+{	
+	"name": "Корень"
+	"type": "flying"
+	"flying": true
+	"health": 250
+	"armor": 5
+	"speed": 2
+	"rotateSpeed": 5
+	"drag": 0.1
+	"accel": 0.1
+	"hitSize": 8
+	"engineOffset": 5
+	"engineSize": 1
+	"lowAltitude": true
+	"lightRadius": 90
+	"lightColor": "ff4444"
+	"buildSpeed": 1
+	"mineSpeed": 10
+	"mineTier": 1
+	"itemCapacity": 50
+}

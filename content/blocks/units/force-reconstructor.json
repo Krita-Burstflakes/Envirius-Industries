@@ -1,0 +1,34 @@
+{
+	"type": "reconstructor"
+	"name": "Усиливающий реконструктор"
+	"description": "Улучшает введённые еденицы до последнего, 3 тира."
+	"health": "2400"
+	"size": "6"
+	"requirements": [
+		{"item": "iron", "amount": 350 }
+		{"item": "metaglass", "amount": 100 }
+		{"item": "silicon", "amount": 100 }
+	]
+	"research": "conveyor"
+	"hasPower": true
+	"hasItems": true
+	"consumes": {
+		"power": 4
+		"items": {
+			"items": [
+				{"item": "iron", "amount": 50 }
+				{"item": "silicon", "amount": 25 }
+				{"item": "metaglass", "amount": 10 }
+			]
+		}
+    }
+	"constructTime": 2500
+	"category": "units"
+	"idleSoundValue": ""
+	"itemcapacity": "50"
+	"upgrades": [
+		["wind", "aert"]
+		["river", "barracuda"]
+		["sword", "fork"]
+	]
+}	

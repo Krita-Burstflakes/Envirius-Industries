@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"name": "Belge-flower"
+	"itemDrop": "belge-pollen",
+	"playerUnmineable": true
+	"variants": "1"
+}

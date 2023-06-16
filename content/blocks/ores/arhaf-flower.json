@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"name": "Arhaf-flower"
+	"itemDrop": "arhaf-pollen",
+	"playerUnmineable": true
+	"variants": "1"
+}

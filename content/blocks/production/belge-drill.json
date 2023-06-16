@@ -1,0 +1,22 @@
+{
+	"name": "Бельгеловый бур"
+	"description": "Использует пыльцу Бельге для большей скорости."
+	"type": "drill"
+	"health": "480"
+	"size": "2"
+	"requirements": [
+		{"item": "iron", "amount": 25 }
+		{"item": "silicon", "amount": 5 }
+		{"item": "belge-pollen", "amount": 5 }
+	]
+	"consumes": {
+		"power": 0.25
+	}
+	"tier": "3"
+	"drillTime": "200"
+	"drillEffect": "mine"
+	"drawRim": false
+	"drawSpinSprite": false
+	"category": "production"
+	"research": "copper-wall"
+}

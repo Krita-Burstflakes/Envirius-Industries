@@ -1,0 +1,22 @@
+{
+	"name": "Железный Луч"
+	"description": "Соединяет лучи энергии для её передачи."
+	"type": "powerNode"
+	"health": "100"
+	"size": "1"
+	"itemCapacity": "5"
+	"requirements": [
+		{"item": "iron", "amount": 4 }
+		{"item": "fyrite", "amount": 1 }
+	]
+	"autolink": true
+	"maxNodes": "5"
+	"laserRange": "5"
+	"laserScale": "0.25"
+	"explosionDamage": "20"
+	"itemDuration": "100"
+	"warmupSpeed": "0.01"
+	"powerProduction": "1.5"
+	"category": "power"
+	"research": "copper-wall"
+}

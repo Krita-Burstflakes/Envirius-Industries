@@ -1,0 +1,12 @@
+{
+	"type": "material"
+	"name": "Пыльца Канета"
+	"description": "Пыльца с цветов Канета. используется для создания жидкого топлива."
+	"color": "2a75d5"
+	"explosiveness": "0"
+	"flameability": "0"
+	"radioactivity": "0"
+	"hardness": "5"
+	"cost": "1f"
+	"alwaysunlocked": true
+}

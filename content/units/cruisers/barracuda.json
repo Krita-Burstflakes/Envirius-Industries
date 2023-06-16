@@ -1,0 +1,35 @@
+{	
+	"name": "Барракуда"
+	"type": "naval"
+	"naval": true
+	"health": 4500
+	"armor": 15
+	"speed": 0.9
+	"rotateSpeed": 3
+	"lightRadius": 90
+	"hitSize": 32
+	"lightColor": "ff4444"
+	"weapons": [	
+		{
+		"name": "barracuda-turret"
+		"x": 0
+		"y": 0
+		"mirror": false
+		"rotate": true
+		"rotateSpeed": 3
+		"reload": 5
+		"shootSound": "shoot"
+		"shootSound": "blaster"
+		"bullet": {
+			"type": "laseBoltBulletType"
+            "lifetime": "25"
+            "speed": "10"
+            "damage": "75"
+            "frontColor": "8ab0e2"
+            "backColor": "5c95de"
+			"width": 7.5
+			"height": 25
+			}
+		}
+	]
+}

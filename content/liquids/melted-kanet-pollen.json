@@ -1,0 +1,11 @@
+{
+	"type": "liquid"
+	"name": "Измелчённая канетовая пыльца"
+	"description": "Используется как поебрипас для турелей и как охладитель."
+	"color": "6ca2e8"
+	"flameability": "0f"
+	"temperature": "0f"
+	"heatcapacity": "0f"
+	"viscosity": "0.1f"
+	"explosiveness": "0f"
+}

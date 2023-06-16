@@ -1,0 +1,34 @@
+{
+	"type": "unitFactory"
+	"name": "Фабрика танков"
+	"description": "создаёт танки 1 тира, - Стрела."
+	"health": "980"
+	"size": "2"
+	"requirements": [
+		{"item": "iron", "amount": 150 }
+		{"item": "metaglass", "amount": 5 }
+		{"item": "silicon", "amount": 50 }
+		{"item": "belge-pollen", "amount": 10 }
+	]
+	"research": "conveyor"
+	"hasPower": true
+	"hasItems": true
+	"craftTime": "100"
+	"consumes": {
+		"power": 2
+	}
+	"category": "units"
+	"idleSoundValue": ""
+	"itemcapacity": "40"
+	"plans": [
+		{
+			"unit": "arrow"
+			"time": 1000
+			"requirements": [
+				{"item": "iron", "amount": 20 }
+				{"item": "silicon", "amount": 10 }
+				{"item": "belge-pollen", "amount": 10 }
+			]
+		}
+	]
+}	

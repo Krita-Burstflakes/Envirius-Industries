@@ -1,0 +1,48 @@
+{	
+	"name": "Водоросль"
+	"type": "naval"
+	"naval": true
+	"size": "2x3"
+	"health": 750
+	"armor": 5
+	"speed": 1.2
+	"rotateSpeed": 3
+	"lightRadius": 90
+	"hitSize": 8
+	"lightColor": "ff4444"
+	"mirror": true
+	"weapons": [	
+		{	
+		"name": "seaweed-turret"
+		"x": 2
+		"y": 2
+		"rotate": true
+		"rotateSpeed": 3
+		"reload": 10
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "25"
+            "speed": "10"
+            "damage": "15"
+            "frontColor": "dddddd"
+            "backColor": "bbbbbb"
+			}
+		}
+		{
+		"name": "seaweed-turret"
+		"x": 2
+		"y": -3
+		"rotate": true
+		"rotateSpeed": 3
+		"reload": 10
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "25"
+            "speed": "10"
+            "damage": "15"
+            "frontColor": "dddddd"
+            "backColor": "bbbbbb"
+			}
+		}
+	]
+}

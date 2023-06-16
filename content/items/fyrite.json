@@ -1,0 +1,12 @@
+{
+	"type": "material"
+	"name": "Фирит"
+	"description": "Редкий ресурс на Энвириусе. Используется в качестве электрического проводника."
+	"color": "eebb66"
+	"explosiveness": "0"
+	"flameability": "0"
+	"radioactivity": "0.1"
+	"hardness": "2"
+	"cost": "1f"
+	"alwaysunlocked": true
+}

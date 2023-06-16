@@ -1,0 +1,30 @@
+{
+    "type": "itemTurret"
+    "name": "Блеск"
+    "description": "Стреляет по воздушным целям в маленьком радиусе."
+    "health": "1000"
+    "size": "2"
+    "requirements": [
+        {"item": "iron", "amount": 50 }
+        {"item": "silicon", "amount": 25 }
+		{"item": "silver-dust", "amount": 10 }
+    ]
+    "maxAmmo": "50"
+	"inaccuracy": "45"
+    "ammoPerShot": "1"
+    "reload": "2"
+    "range": "80"
+	"targetGround": false
+	"shootSound": "bigshot"
+    "category": "turret"
+    "ammoTypes": {
+        "silver-dust": {
+            "type": "basicBulletType"
+            "lifetime": "4"
+            "speed": "20"
+            "damage": "25"
+            "frontColor": "ddddff"
+            "backColor": "bbbbdd"
+        }
+    }
+}    

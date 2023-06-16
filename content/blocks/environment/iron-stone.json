@@ -1,0 +1,6 @@
+{
+	"type": "floor"
+	"walkSound": "rockBreak"
+	"edge": "stone"
+	"variants": 2
+}

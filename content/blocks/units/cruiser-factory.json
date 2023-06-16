@@ -1,0 +1,35 @@
+{
+	"type": "unitFactory"
+	"name": "Фабрика крейсеров"
+	"description": "создаёт крейсеры 1 тира, - водросль."
+	"health": "1200"
+	"size": "2"
+	"requirements": [
+		{"item": "iron", "amount": 150 }
+		{"item": "metaglass", "amount": 5 }
+		{"item": "silicon", "amount": 50 }
+		{"item": "kanet-pollen", "amount": 10 }
+	]
+	"research": "conveyor"
+	"hasPower": true
+	"hasItems": true
+	"craftTime": "100"
+	"consumes": {
+		"power": 2
+	}
+	"category": "units"
+	"idleSoundValue": ""
+	"itemcapacity": "40"
+	"plans": [
+		{
+			"unit": "seaweed"
+			"time": 1000
+			"requirements": [
+				{"item": "iron", "amount":20 }
+				{"item": "silicon", "amount": 5 }
+				{"item": "metaglass", "amount": 15 }
+				{"item": "kanet-pollen", "amount": 5 }
+			]
+		}
+	]
+}	

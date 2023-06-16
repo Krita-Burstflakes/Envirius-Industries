@@ -1,0 +1,12 @@
+{
+	"type": "Router"
+	"name": "Железный маршрутизатор"
+	"description": "Выводит ресурсы в 3 стороны."
+	"health": "60"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 3 }
+	]
+	"research": "router"
+	"category": "distribution"
+}

@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter"
+	"name": "Растворитель оксилита"
+	"description": "Растворяет оксилит в воде."
+	"health": "980"
+	"size": "3"
+	"requirements": [
+		{"item": "iron", "amount": 100 }
+		{"item": "metaglass", "amount": 5 }
+		{"item": "silicon", "amount": 20 }
+	]
+	"research": "conveyor"
+	"hasPower": true
+	"hasItems": true
+	"hasLiquids": true
+	"craftTime": "100"
+	"consumes": {
+		"power": 2
+		"items": {
+			"items": [
+				{"item": "oxylite", "amount": 1 }
+			]
+		}
+		"liquids": {
+			"liquids": [
+				{"liquid": "water", "amount": 10 }
+			]
+		}
+	}
+	"updateEffect": "smeltsmoke"
+	"category": "crafting"
+	"idleSoundValue": ""
+	"itemcapacity": ""
+	"outputLiquid": {"liquid": "oxylite-solution", "amount": 15 }
+}	

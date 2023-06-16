@@ -1,0 +1,39 @@
+{	
+	"name": "Ветер"
+	"type": "flying"
+	"flying": true
+	"size": "2x3"
+	"health": 1500
+	"armor": 5
+	"speed": 2
+	"rotateSpeed": 1.5
+	"drag": 0.002
+	"accel": 0.008
+	"hitSize": 16
+	"engineOffset": 5
+	"engineSize": 1
+	"lowAltitude": true
+	"circleTarget": true
+	"rotateShooting": true
+	"lightRadius": 90
+	"lightColor": "ff4444"
+	"mirror": true
+	"weapons": [	
+		{	
+		"name": "wind-turret"
+		"x": -7.5
+		"y": 0
+		"rotate": true
+		"rotateSpeed": 3
+		"reload": 5
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "10"
+            "speed": "20"
+            "damage": "20"
+            "frontColor": "dddddd"
+            "backColor": "bbbbbb"
+			}
+		}
+	]
+}

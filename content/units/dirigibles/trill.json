@@ -1,0 +1,37 @@
+{	
+	"name": "Трель"
+	"type": "flying"
+	"flying": true
+	"health": 500
+	"armor": 5
+	"speed": 3
+	"rotateSpeed": 1.5
+	"drag": 0.002
+	"accel": 0.008
+	"hitSize": 8
+	"engineOffset": 5
+	"engineSize": 1
+	"lowAltitude": true
+	"circleTarget": true
+	"rotateShooting": true
+	"lightRadius": 90
+	"lightColor": "ff4444"
+	"mirror": true
+	"weapons": [	
+		{	
+		"name": "trill-turret"
+		"x": -3
+		"y": -3.5
+		"rotate": false
+		"reload": 25
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "20"
+            "speed": "10"
+            "damage": "75"
+            "frontColor": "dddddd"
+            "backColor": "bbbbbb"
+			}
+		}
+	]
+}

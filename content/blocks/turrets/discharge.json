@@ -1,0 +1,44 @@
+{
+    "type": "itemTurret"
+    "name": "Разряд"
+    "description": "Стреляет сильным энергетическим лазерам по наземным целям."
+    "health": "1250"
+    "size": "2"
+    "requirements": [
+        {"item": "iron", "amount": 100 }
+        {"item": "silicon", "amount": 20 }
+		{"item": "fyrite", "amount": 40 }
+    ]
+    "targetAir": false
+	"maxAmmo": "15"
+    "ammoPerShot": "1"
+    "reload": "15"
+    "range": "180"
+	"shootSound": "blaster"
+    "category": "turret"
+	"consumes": {
+		"power": 1
+	}
+    "ammoTypes": {
+        "fyrite": {
+            "type": "laserBulletType"
+            "lifetime": "20"
+            "speed": "10"
+            "damage": "80"
+            "frontColor": "eebb55"
+            "backColor": "ddaa55"
+			"colors": ["ebbd5b", "f5d184", "edb53e"]
+			"laserEffect": "lancerLaserShootSmoke"
+			"length": 80.0
+			"width": 10.0
+			"lengthFalloff": 0.5	
+			"sideLength": 29.0	
+			"sideWidth": 0.7	
+			"sideAngle": 180.0	
+			"lightningSpacing": -1.0	
+			"lightningDelay": 0.1	
+			"float":	0.0	
+			"largeHit": false
+        }
+    }
+}    

@@ -1,0 +1,30 @@
+{
+	"name": "Фиритовый генератор"
+	"description": "Генератор основанный на принципе распада фирита"
+	"type": "consumeGenerator"
+	"health": "100"
+	"size": "1"
+	"itemCapacity": "5"
+	"requirements": [
+		{"item": "iron", "amount": 25 }
+		{"item": "fyrite", "amount": 5 }
+	]
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "fyrite", "amount": 1 }
+			]
+		}
+	}
+	"powerCapacity": "200"
+	"outputsPower": true
+	"hasPower": true
+	"productionTime": "1"
+	"explosionRadius": "40"
+	"explosionDamage": "20"
+	"itemDuration": "100"
+	"warmupSpeed": "0.01"
+	"powerProduction": "1.5"
+	"category": "power"
+	"research": "copper-wall"
+}

@@ -1,0 +1,22 @@
+{
+	"name": "Железный щит"
+	"description": "Маленький щит с маленьким радиусом и здоровьем."
+	"type": "ForceProjector"
+	"health": "480" 
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 60 }
+		{"item": "fyrite", "amount": 5 }
+	]
+	"consumes": {
+		"power": 0.5
+	}
+	"radius": "60"
+	"sides": "4"
+	"shieldHealth": "500"
+	"cooldownNormal": 4f
+	"cooldownLiquid": 2f
+	"cooldownBrokenBase": 2f
+	"category": "effect"
+	"research": "copper-wall"
+}

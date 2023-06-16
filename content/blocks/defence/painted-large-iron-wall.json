@@ -1,0 +1,13 @@
+{
+	"name": "Большая покрашенная железная стена"
+	"description": "Обычная большая стена из железа, но только покрашенная."
+	"type": "wall"
+	"health": "1920"
+	"size": "2"
+	"requirements": [
+		{"item": "iron", "amount": 24 }
+		{"item": "arhaf-pollen", "amount": 4 }
+	]
+	"category": "defense"
+	"research": "iron-wall"
+}

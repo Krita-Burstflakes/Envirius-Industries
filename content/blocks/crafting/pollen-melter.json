@@ -1,0 +1,35 @@
+{
+	"type": "GenericCrafter"
+	"name": "Измельчитель пыльцы"
+	"description": "Измельчает канетовую пыльцу в жидкость."
+	"health": "250"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 100 }
+		{"item": "metaglass", "amount": 5 }
+		{"item": "silicon", "amount": 20 }
+	]
+	"research": "conveyor"
+	"hasPower": true
+	"hasItems": true
+	"hasLiquids": true
+	"craftTime": "100"
+	"consumes": {
+		"power": 0.5
+		"items": {
+			"items": [
+				{"item": "kanet-pollen", "amount": 2 }
+			]
+		}
+		"liquids": {
+			"liquids": [
+				{"liquid": "water", "amount": 0.1 }
+			]
+		}
+	}
+	"updateEffect": "smeltsmoke"
+	"category": "crafting"
+	"idleSoundValue": ""
+	"itemcapacity": ""
+	"outputLiquid": {"liquid": "melted-kanet-pollen", "amount": 0.1 }
+}	

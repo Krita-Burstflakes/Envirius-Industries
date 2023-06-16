@@ -1,0 +1,14 @@
+{
+	"type": "junction"
+	"name": "Железный перекрёсток"
+	"description": "Перекрёсток между двумя конвейерными лентами."
+	"health": "40"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 2 }
+	]
+	"speed": "50"
+	"capacity": "10"
+	"research": "conveyor"
+	"category": "distribution"
+}

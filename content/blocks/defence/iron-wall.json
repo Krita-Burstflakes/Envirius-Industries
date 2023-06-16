@@ -1,0 +1,12 @@
+{
+	"name": "Железная стена"
+	"description": "Немного прочная стена из железа."
+	"type": "wall"
+	"health": "480"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 6 }
+	]
+	"category": "defense"
+	"research": "copper-wall"
+}

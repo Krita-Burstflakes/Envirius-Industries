@@ -1,0 +1,12 @@
+{
+	"type": "material"
+	"name": "Пыльца Бельге"
+	"description": "Пыльца с цветов бельге. Используется в энергетике и для усиленных буров."
+	"color": "f1cf90"
+	"explosiveness": "0"
+	"flameability": "0"
+	"radioactivity": "0"
+	"hardness": "5"
+	"cost": "1f"
+	"alwaysunlocked": true
+}

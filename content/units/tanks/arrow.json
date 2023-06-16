@@ -1,0 +1,30 @@
+{	
+	"name": "Стрела"
+	"type": "tank"
+	"health": 1000
+	"armor": 5
+	"speed": 1
+	"rotateSpeed": 5
+	"hitSize": 8
+	"lightRadius": 90
+	"lightColor": "ff4444"
+	"omniMovement": false
+	"weapons": [	
+		{	
+		"name": "arrow-turret"
+		"x": 0
+		"y": 0
+		"mirror": false
+		"rotate": true
+		"reload": 20
+		"bullet": {
+			"type": "basicBulletType"
+            "lifetime": "20"
+            "speed": "10"
+            "damage": "50"
+            "frontColor": "dddddd"
+            "backColor": "bbbbbb"
+			}
+		}
+	]
+}

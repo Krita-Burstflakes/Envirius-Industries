@@ -1,0 +1,9 @@
+{
+"name": "envirius",
+"displayName": "Envirius",
+"author": "BARRACUDA x KRITA",
+"description": "Мод на новую планету с технологиями",
+"version": "0.5",
+"minGameVersion": "143",
+"dependencies": []
+}

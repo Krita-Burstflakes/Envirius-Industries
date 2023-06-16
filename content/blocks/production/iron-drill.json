@@ -1,0 +1,18 @@
+{
+	"name": "Железный бур"
+	"description": "Простой бур из железа"
+	"type": "drill"
+	"health": "480"
+	"size": "2"
+	"requirements": [
+		{"item": "iron", "amount": 15 }
+	]
+	"liquidCapacity": "10"
+	"tier": "2"
+	"drillTime": "400"
+	"drillEffect": "mine"
+	"drawRim": false
+	"drawSpinSprite": false
+	"category": "production"
+	"research": "copper-wall"
+}

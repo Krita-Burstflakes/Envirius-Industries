@@ -1,0 +1,17 @@
+{
+	"name": "Железная помпа"
+	"description": "Выкачивает жидкости из водоёмов."
+	"health": 125
+	"type": "pump"
+	"size": "1"
+	"requirements": [
+		{"item": "iron", "amount": 10 }
+		{"item": "metaglass", "amount": 5 }
+	]
+	"hasLiquids": true
+	"liquidCapacity": "10"
+	"pumpAmount": 0.2
+	"consumeTime": "200"
+	"category": "liquid"
+	"research": "copper-wall"
+}

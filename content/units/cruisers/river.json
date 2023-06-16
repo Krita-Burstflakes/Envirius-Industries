@@ -1,0 +1,53 @@
+{	
+	"name": "Река"
+	"type": "naval"
+	"naval": true
+	"health": 2000
+	"armor": 5
+	"speed": 1.2
+	"rotateSpeed": 3
+	"lightRadius": 90
+	"hitSize": 16
+	"lightColor": "ff4444"
+	"weapons": [	
+		{	
+		"name": "river-laser-turret"
+		"x": 4
+		"y": -2
+		"mirror": true
+		"rotate": true
+		"rotateSpeed": 3
+		"reload": 10
+		"bullet": {
+			"type": "laseBoltBulletType"
+            "lifetime": "25"
+            "speed": "10"
+            "damage": "15"
+            "frontColor": "8ab0e2"
+            "backColor": "5c95de"
+			"width": 5
+			"height": 15
+			}
+		}
+		{
+		"name": "river-bomb-turret"
+		"x": 0
+		"y": 0
+		"mirror": false
+		"rotate": true
+		"rotateSpeed": 3
+		"reload": 75
+		"shootSound": "shoot"
+		"bullet": {
+			"type": "laseBoltBulletType"
+            "lifetime": "25"
+            "speed": "10"
+            "damage": "75"
+            "frontColor": "8ab0e2"
+            "backColor": "5c95de"
+			"width": 15
+			"height": 25
+			}
+		}
+	]
+}

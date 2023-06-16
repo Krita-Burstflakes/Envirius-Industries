@@ -1,0 +1,30 @@
+{
+	"name": "Бельгеловый генератор"
+	"description": "Генератор синтезирующий энергию из пыльцы бельге."
+	"type": "consumeGenerator"
+	"health": "100"
+	"size": "2"
+	"itemCapacity": "5"
+	"requirements": [
+		{"item": "iron", "amount": 75 }
+		{"item": "fyrite", "amount": 15 }
+	]
+	"consumes": {
+		"items": {
+			"items": [
+				{"item": "belge-pollen", "amount": 1 }
+			]
+		}
+	}
+	"powerCapacity": "200"
+	"outputsPower": true
+	"hasPower": true
+	"productionTime": "1"
+	"explosionRadius": "40"
+	"explosionDamage": "20"
+	"itemDuration": "100"
+	"warmupSpeed": "0.01"
+	"powerProduction": "3"
+	"category": "power"
+	"research": "copper-wall"
+}

@@ -1,0 +1,7 @@
+{
+	"name": "серебряный песок"
+	"type": "floor"
+	"itemDrop": "silver-dust"
+	"walkSound": "rockBreak"
+	"variants": 2
+}

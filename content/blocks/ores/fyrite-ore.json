@@ -1,0 +1,7 @@
+{
+	"type": "OreBlock",
+	"name": "fyrite-ore"
+	"itemDrop": "fyrite",
+	"playerUnmineable": true
+	"variants": "1"
+}

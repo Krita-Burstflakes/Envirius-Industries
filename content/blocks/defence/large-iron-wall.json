@@ -1,0 +1,12 @@
+{
+	"name": "Большая железная стена"
+	"description": "Большая стена из железа."
+	"type": "wall"
+	"health": "1920"
+	"size": "2"
+	"requirements": [
+		{"item": "iron", "amount": 24 }
+	]
+	"category": "defense"
+	"research": "iron-wall"
+}

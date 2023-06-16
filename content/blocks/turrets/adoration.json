@@ -1,0 +1,38 @@
+{
+    "type": "itemTurret"
+    "name": "Поклонение"
+    "description": "Стреляет поочерёдно из 3 стволов с высокой скоростью."
+    "health": "1000"
+    "size": "2"
+    "requirements": [
+        {"item": "iron", "amount": 75 }
+        {"item": "silicon", "amount": 10 }
+    ]
+    "maxAmmo": "45"
+    "ammoPerShot": "1"
+    "reload": "4"
+    "range": "200"
+	"shootSound": "bigshot"
+    "category": "turret"
+    "ammoTypes": {
+        "iron": {
+            "type": "basicBulletType"
+            "lifetime": "10"
+            "speed": "20"
+            "damage": "25"
+            "frontColor": "dddddd"
+            "backColor": "bbbbbb"
+        }
+		"oxylite": {
+            "type": "lightingBulletType"
+            "lifetime": "8"
+            "speed": "18"
+            "damage": "45"
+            "length": "100"
+			"lightningColor": "336633ff"
+			"lightningLength": "200"
+			"frontColor": "336633"
+            "backColor": "225522"
+        }
+    }
+}    
